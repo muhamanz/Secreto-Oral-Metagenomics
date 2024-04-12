@@ -18,3 +18,4 @@ phyloseq <- merge_phyloseq(biom, metadata)
 random_tree = rtree(ntaxa(phyloseq), rooted=TRUE, tip.label=taxa_names(phyloseq))
 phyloseq <- merge_phyloseq(biom, metadata, random_tree)
 #remove samples with less than 100000k reads (total)
+  
